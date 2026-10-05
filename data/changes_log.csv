@@ -1,0 +1,452 @@
+model,column,raw_value,clean_value,change
+Tesla Pi Phone,(whole row),,removed,never released (rumoured phone)
+Apple iPhone 9,(whole row),,removed,never released (rumoured phone)
+OPPO Reno 8 Pro House of Dragon Edition,(whole row),,removed,duplicate: same specs and price as OPPO Reno 8 Pro 5G
+Vertu Signature Touch,(whole row),,removed,luxury edition (price not set by specs)
+Huawei Mate 50 RS Porsche Design,(whole row),,removed,luxury edition (price not set by specs)
+Apple iPhone 7s,(whole row),,removed,never released (rumoured phone)
+Vivo Y15C,(whole row),,removed,duplicate: same specs and price as Vivo Y15s
+Xiaomi Redmi 10 Prime Plus 5G,(whole row),,removed,duplicate: same specs and price as Xiaomi Redmi Note 11E 5G
+Xiaomi Redmi K20 Pro Signature Edition,(whole row),,removed,luxury edition (price not set by specs)
+Huawei Mate 30 RS Porsche Design,(whole row),,removed,luxury edition (price not set by specs)
+Apple iPhone 12,battery_capacity,,3279.0,missing -> median battery of the same brand
+Apple iPhone 12 (128GB),battery_capacity,,3279.0,missing -> median battery of the same brand
+Apple iPhone 12 (256GB),battery_capacity,,3279.0,missing -> median battery of the same brand
+Apple iPhone 12 Mini,battery_capacity,,3279.0,missing -> median battery of the same brand
+Apple iPhone 12 Mini (128GB),battery_capacity,,3279.0,missing -> median battery of the same brand
+Apple iPhone 12 Mini (256GB),battery_capacity,,3279.0,missing -> median battery of the same brand
+Apple iPhone 12 Pro (256GB),battery_capacity,,3279.0,missing -> median battery of the same brand
+Apple iPhone 12 Pro (512GB),battery_capacity,,3279.0,missing -> median battery of the same brand
+Apple iPhone 15 Pro,battery_capacity,,3279.0,missing -> median battery of the same brand
+Apple iPhone SE 3 2022,battery_capacity,,3279.0,missing -> median battery of the same brand
+Apple iPhone SE 4,battery_capacity,,3279.0,missing -> median battery of the same brand
+Letv Y1 Pro,brand_name,letv,leeco,standardized: 'letv' -> 'leeco'
+Letv Y1 Pro Plus,brand_name,letv,leeco,standardized: 'letv' -> 'leeco'
+Letv Y2 Pro,brand_name,letv,leeco,standardized: 'letv' -> 'leeco'
+Redmi 12C,brand_name,redmi,xiaomi,standardized: 'redmi' -> 'xiaomi'
+Redmi Note 11 Pro 2023,brand_name,redmi,xiaomi,standardized: 'redmi' -> 'xiaomi'
+Redmi Note 12 Pro Speed Edition,brand_name,redmi,xiaomi,standardized: 'redmi' -> 'xiaomi'
+Apple iPhone 11,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Apple iPhone 11 (128GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Apple iPhone 12,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Apple iPhone 12 (128GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Apple iPhone 12 (256GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Apple iPhone 12 Mini,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Apple iPhone 12 Mini (128GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Apple iPhone 12 Mini (256GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Apple iPhone 12 Pro (256GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Apple iPhone 12 Pro (512GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Apple iPhone 13,fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 13 (256GB),fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 13 (512GB),fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 13 Mini,fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 13 Pro,fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 13 Pro (1TB),fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 13 Pro (256GB),fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 13 Pro Max,fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 13 Pro Max (1TB),fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 13 Pro Max (256GB),fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 14,fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 14 (256GB),fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 14 (512GB),fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 14 Mini,fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 14 Plus,fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 14 Plus (256GB),fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 14 Plus (512GB),fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 14 Pro,fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 14 Pro (1TB),fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 14 Pro (256GB),fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 14 Pro Max,fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 14 Pro Max (1TB),fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 14 Pro Max (256GB),fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 14 Pro Max (512GB),fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 15,fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 15 Plus,fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone 15 Pro,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Apple iPhone 15 Ultra,fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+Apple iPhone SE 3 2022,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Apple iPhone SE 4,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Apple iPhone XR2,fast_charging,,18.0,"missing, power unknown -> median of the same brand"
+BLU F91 5G,fast_charging,,33.0,"missing, power unknown -> median of the same brand"
+CAT S22 Flip,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Duoqin F22 Pro,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Gionee G13 Pro,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Gionee K10,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Gionee M12 Pro,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Google Pixel 2 XL,fast_charging,,30.0,"missing, power unknown -> median of the same brand"
+Google Pixel 4,fast_charging,,30.0,"missing, power unknown -> median of the same brand"
+Google Pixel 6A,fast_charging,,30.0,"missing, power unknown -> median of the same brand"
+Google Pixel 7A,fast_charging,,30.0,"missing, power unknown -> median of the same brand"
+Honor Play 30,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Huawei Honor 9N,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Infinix Hot 11S,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Infinix Hot 20i,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Infinix Smart 6,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Infinix Smart 6 HD,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Infinix Smart 6 Plus,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Itel A23 Pro,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Itel A24 Pro,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Jio JioPhone Next,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Jio JioPhone Next (3GB RAM + 32GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Jio Phone 3,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+LG V60 ThinQ,fast_charging,,25.0,"missing, power unknown -> median of the same brand"
+LG Wing 5G,fast_charging,,25.0,"missing, power unknown -> median of the same brand"
+Lava Blaze 5G,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Lava Blaze NXT,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Lava X3,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Leitz Phone 2,fast_charging,,33.0,"missing, power unknown -> median of the same brand"
+Letv Y1 Pro,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Letv Y2 Pro,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Lyf Earth 1,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Lyf Earth 2,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Micromax IN 2B,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Micromax IN 2B (6GB RAM + 64GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Micromax IN 2C,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Motorola Moto E40,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Motorola Moto G51 5G,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Motorola Moto G62 (8GB RAM + 128GB),fast_charging,,33.0,"missing, power unknown -> median of the same brand"
+Motorola Moto G62 5G,fast_charging,,33.0,"missing, power unknown -> median of the same brand"
+Motorola Moto G91 5G,fast_charging,,33.0,"missing, power unknown -> median of the same brand"
+Nokia C01 Plus,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Nokia C21 Plus (4GB RAM + 64GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+OPPO A15,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+OPPO A16,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+OPPO A16K (4GB RAM + 64GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+OPPO A16e,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+OPPO A16e (4GB RAM + 64GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+OPPO A17,fast_charging,,44.0,"missing, power unknown -> median of the same brand"
+OPPO A17K,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+OPPO A54,fast_charging,,44.0,"missing, power unknown -> median of the same brand"
+OPPO A54 (4GB RAM + 128GB),fast_charging,,44.0,"missing, power unknown -> median of the same brand"
+OPPO A54 (6GB RAM + 128GB),fast_charging,,44.0,"missing, power unknown -> median of the same brand"
+OPPO A55 5G,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+OPPO A73,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+OnePlus 6 (8GB RAM + 128GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+OnePlus 9RT 5G,fast_charging,,80.0,"missing, power unknown -> median of the same brand"
+OnePlus Ace Racing Edition 5G,fast_charging,,80.0,"missing, power unknown -> median of the same brand"
+Oppo A12,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Oppo A15s (4GB RAM + 128GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Oppo A31 2020 (6GB RAM + 128GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Oppo A56 5G,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Oppo A56s,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Oukitel WP9,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+POCO C31,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+POCO C31 (4GB RAM + 64GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Poco C55,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Poco X6 Pro 5G,fast_charging,,33.0,"missing, power unknown -> median of the same brand"
+Realme A1,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Realme C11,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Realme C11 2021,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Realme C11 2021 (4GB RAM + 64GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Realme C2,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Realme C21Y,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Realme C2s,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Realme C30,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Realme C30 (3GB RAM + 32GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Realme C31,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Realme C31 (4GB RAM + 64GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Realme C32,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Realme C33,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Realme C33 (4GB RAM + 64GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Realme G1,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Realme Narzo 50i,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Realme Narzo 50i (4GB RAM + 64GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Redmi 12C,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Royole FlexPai 2,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Royole FlexPai 3 5G,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Samsung Galaxy A01 Core,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Samsung Galaxy A03 Core,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Samsung Galaxy A04,fast_charging,,25.0,"missing, power unknown -> median of the same brand"
+Samsung Galaxy A04 (4GB RAM + 128GB),fast_charging,,25.0,"missing, power unknown -> median of the same brand"
+Samsung Galaxy A04e,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Samsung Galaxy A04e (3GB RAM + 64GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Samsung Galaxy A04e (4GB RAM + 128GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Samsung Galaxy A15,fast_charging,,25.0,"missing, power unknown -> median of the same brand"
+Samsung Galaxy A21s (6GB RAM + 128GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Samsung Galaxy A7 (2018),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Samsung Galaxy A9 Pro (2019),fast_charging,,25.0,"missing, power unknown -> median of the same brand"
+Samsung Galaxy A92 5G,fast_charging,,25.0,"missing, power unknown -> median of the same brand"
+Samsung Galaxy F22,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Samsung Galaxy F22 (6GB RAM + 128GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Samsung Galaxy M14,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Samsung Galaxy M35,fast_charging,,25.0,"missing, power unknown -> median of the same brand"
+Samsung Galaxy M51s 5G,fast_charging,,25.0,"missing, power unknown -> median of the same brand"
+Samsung Galaxy M52s 5G,fast_charging,,25.0,"missing, power unknown -> median of the same brand"
+Samsung Galaxy M62,fast_charging,,25.0,"missing, power unknown -> median of the same brand"
+Samsung Galaxy Note 10 Plus 5G,fast_charging,,25.0,"missing, power unknown -> median of the same brand"
+Samsung Galaxy S20 FE 5G,fast_charging,,25.0,"missing, power unknown -> median of the same brand"
+Samsung Galaxy S23 FE 5G,fast_charging,,25.0,"missing, power unknown -> median of the same brand"
+Samsung Galaxy S9 Plus (128GB),fast_charging,,25.0,"missing, power unknown -> median of the same brand"
+Sharp Aquos R5G,fast_charging,,33.0,"missing, power unknown -> median of the same brand"
+Sony Xperia L5 5G,fast_charging,,30.0,"missing, power unknown -> median of the same brand"
+Tecno Pop 5 Go,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Tecno Pop 6 Pro,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Tecno Pova Neo 2,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Tecno Spark 8 (4GB RAM + 64GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Tecno Spark 8C,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Tecno Spark 8C (4GB RAM + 64GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Tecno Spark 8T,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Tecno Spark 9,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Tecno Spark 9 (3GB RAM + 64GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Tecno Spark 9 (4GB RAM + 64GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Tecno Spark Go 2022,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Vivo V11i,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Vivo V15 Pro (8GB RAM +128GB),fast_charging,,44.0,"missing, power unknown -> median of the same brand"
+Vivo Y01,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Vivo Y10,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Vivo Y11 (2019),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Vivo Y12 (3GB RAM + 64GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Vivo Y12G (3GB RAM + 64GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Vivo Y12a,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Vivo Y15,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Vivo Y15C (3GB RAM + 64GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Vivo Y15s,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Vivo Y21 (2020),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Vivo Y25,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Vivo Y3 (4GB RAM + 128GB),fast_charging,,44.0,"missing, power unknown -> median of the same brand"
+Vivo Y55S,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Vivo Y71,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Vivo Y78 5G,fast_charging,,44.0,"missing, power unknown -> median of the same brand"
+Vivo Y91c,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Vivo Y93,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Vivo Y95,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Xiaomi Poco F1,fast_charging,,33.0,"missing, power unknown -> median of the same brand"
+Xiaomi Poco F1 (6GB RAM + 128GB),fast_charging,,33.0,"missing, power unknown -> median of the same brand"
+Xiaomi Redmi 10A,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Xiaomi Redmi 10A (4GB RAM + 64GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Xiaomi Redmi 10A (6GB RAM + 128GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Xiaomi Redmi 10A Sport,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Xiaomi Redmi 9,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Xiaomi Redmi 9 Activ,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Xiaomi Redmi 9 Activ (6GB RAM + 128GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Xiaomi Redmi 9A,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Xiaomi Redmi 9A (6GB RAM + 128GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Xiaomi Redmi 9A Sport,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Xiaomi Redmi Note 4,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+iKall Z18,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+iKall Z19,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+iKall Z19 Pro,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+itel A23s,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+itel A56,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+itel P36,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+itel S16,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+itel S16 Pro,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+itel Vision 1 (3GB RAM + 32GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
+Apple iPhone 14 Mini,num_cores,,8.0,missing -> most common value
+Apple iPhone 15,num_cores,,8.0,missing -> most common value
+Apple iPhone 15 Pro,num_cores,,8.0,missing -> most common value
+Apple iPhone 15 Pro Max,num_cores,,8.0,missing -> most common value
+Apple iPhone XR2,num_cores,,8.0,missing -> most common value
+Nokia X50 5G,num_cores,,8.0,missing -> most common value
+Huawei Mate X,num_front_cameras,,1.0,missing -> most common value
+Oppo Find N Fold,num_front_cameras,,1.0,missing -> most common value
+Xiaomi Mi Mix Alpha,num_front_cameras,,1.0,missing -> most common value
+itel A23s,num_front_cameras,,1.0,missing -> most common value
+Asus ROG Phone 6D Ultimate,os,,android,"missing -> from the brand (huawei = other, others = android)"
+CAT S22 Flip,os,,android,"missing -> from the brand (huawei = other, others = android)"
+Huawei Mate X,os,,other,"missing -> from the brand (huawei = other, others = android)"
+Huawei Mate Xs 2,os,,other,"missing -> from the brand (huawei = other, others = android)"
+LG V60 ThinQ,os,,android,"missing -> from the brand (huawei = other, others = android)"
+LG Wing 5G,os,,android,"missing -> from the brand (huawei = other, others = android)"
+OPPO Find N Flip,os,,android,"missing -> from the brand (huawei = other, others = android)"
+OPPO Find N2 Flip,os,,android,"missing -> from the brand (huawei = other, others = android)"
+Oppo Find N2 5G,os,,android,"missing -> from the brand (huawei = other, others = android)"
+Oukitel WP21,os,,android,"missing -> from the brand (huawei = other, others = android)"
+Royole FlexPai 2,os,,android,"missing -> from the brand (huawei = other, others = android)"
+Royole FlexPai 3 5G,os,,android,"missing -> from the brand (huawei = other, others = android)"
+Samsung Galaxy Z Flip 3,os,,android,"missing -> from the brand (huawei = other, others = android)"
+Samsung Galaxy Z Flip 4 5G,os,,android,"missing -> from the brand (huawei = other, others = android)"
+Huawei Mate X,primary_camera_front,,16.0,missing -> median
+Oppo Find N Fold,primary_camera_front,,16.0,missing -> median
+Oukitel WP21,primary_camera_front,,16.0,missing -> median
+Xiaomi Mi Mix Alpha,primary_camera_front,,16.0,missing -> median
+itel A23s,primary_camera_front,,16.0,missing -> median
+Gionee G13 Pro,processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Gionee K10,processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Huawei Nova Y61,processor_brand,,unknown,missing -> 'unknown'
+Infinix Hot 12 Play,processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Infinix Hot 12 Pro,processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Infinix Hot 12 Pro (8GB RAM+ 128GB),processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Itel A23 Pro,processor_brand,spreadtrum,unisoc,standardized: 'spreadtrum' is a Unisoc chip -> 'unisoc'
+Jio Phone 3,processor_brand,,unknown,missing -> 'unknown'
+LeEco S1 Pro,processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Letv Y1 Pro,processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Letv Y1 Pro Plus,processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Micromax IN 2C,processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Motorola Moto E13,processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Motorola Moto E40,processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Realme C11 2021,processor_brand,sc9863a,unisoc,standardized: 'sc9863a' is a Unisoc chip -> 'unisoc'
+Realme C11 2021 (4GB RAM + 64GB),processor_brand,sc9863a,unisoc,standardized: 'sc9863a' is a Unisoc chip -> 'unisoc'
+Realme C25Y (4GB RAM + 64GB),processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Realme C30,processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Realme C30 (3GB RAM + 32GB),processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Realme C31,processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Realme C31 (4GB RAM + 64GB),processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Realme C32,processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Realme C35,processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Realme C35 (4GB RAM + 128GB),processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Realme C35 (6GB RAM + 128GB),processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Realme Narzo 50A Prime,processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Realme Narzo 50A Prime (4GB RAM + 128GB),processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Realme Narzo 50i Prime,processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Realme Narzo 50i Prime (4GB RAM + 64GB),processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
+Samsung Galaxy A05,processor_brand,,unknown,missing -> 'unknown'
+Samsung Galaxy A11,processor_brand,,unknown,missing -> 'unknown'
+Samsung Galaxy A13,processor_brand,,unknown,missing -> 'unknown'
+Samsung Galaxy A13 (4GB RAM + 128GB),processor_brand,,unknown,missing -> 'unknown'
+Samsung Galaxy A13 (6GB RAM + 128GB),processor_brand,,unknown,missing -> 'unknown'
+Samsung Galaxy A15,processor_brand,,unknown,missing -> 'unknown'
+Samsung Galaxy F14,processor_brand,,unknown,missing -> 'unknown'
+Samsung Galaxy M35,processor_brand,,unknown,missing -> 'unknown'
+Samsung Galaxy M51s 5G,processor_brand,,unknown,missing -> 'unknown'
+Samsung Galaxy M52s 5G,processor_brand,,unknown,missing -> 'unknown'
+Samsung Galaxy S23 FE 5G,processor_brand,,unknown,missing -> 'unknown'
+Tecno Pop 5 Go,processor_brand,spreadtrum,unisoc,standardized: 'spreadtrum' is a Unisoc chip -> 'unisoc'
+Tecno Spark Go 2022,processor_brand,,unknown,missing -> 'unknown'
+iKall Z18,processor_brand,,unknown,missing -> 'unknown'
+iKall Z19,processor_brand,,unknown,missing -> 'unknown'
+iKall Z19 Pro,processor_brand,,unknown,missing -> 'unknown'
+itel A23s,processor_brand,spreadtrum,unisoc,standardized: 'spreadtrum' is a Unisoc chip -> 'unisoc'
+itel A56,processor_brand,,unknown,missing -> 'unknown'
+itel P36,processor_brand,spreadtrum,unisoc,standardized: 'spreadtrum' is a Unisoc chip -> 'unisoc'
+itel S16 Pro,processor_brand,,unknown,missing -> 'unknown'
+Apple iPhone 14 Mini,processor_speed,,3.22,missing -> median speed of the same processor brand
+Apple iPhone 14 Pro,processor_speed,,3.22,missing -> median speed of the same processor brand
+Apple iPhone 14 Pro (1TB),processor_speed,,3.22,missing -> median speed of the same processor brand
+Apple iPhone 14 Pro (256GB),processor_speed,,3.22,missing -> median speed of the same processor brand
+Apple iPhone 14 Pro Max,processor_speed,,3.22,missing -> median speed of the same processor brand
+Apple iPhone 14 Pro Max (1TB),processor_speed,,3.22,missing -> median speed of the same processor brand
+Apple iPhone 14 Pro Max (256GB),processor_speed,,3.22,missing -> median speed of the same processor brand
+Apple iPhone 14 Pro Max (512GB),processor_speed,,3.22,missing -> median speed of the same processor brand
+Apple iPhone 15,processor_speed,,3.22,missing -> median speed of the same processor brand
+Apple iPhone 15 Plus,processor_speed,,3.22,missing -> median speed of the same processor brand
+Apple iPhone 15 Pro,processor_speed,,3.22,missing -> median speed of the same processor brand
+Apple iPhone 15 Pro Max,processor_speed,,3.22,missing -> median speed of the same processor brand
+Apple iPhone 15 Ultra,processor_speed,,3.22,missing -> median speed of the same processor brand
+Apple iPhone XR2,processor_speed,,3.22,missing -> median speed of the same processor brand
+Google Pixel 6A,processor_speed,,2.8,missing -> median speed of the same processor brand
+Google Pixel 7A,processor_speed,,2.8,missing -> median speed of the same processor brand
+Google Pixel 8,processor_speed,,2.8,missing -> median speed of the same processor brand
+Google Pixel 8 Pro,processor_speed,,2.8,missing -> median speed of the same processor brand
+Huawei Nova Y61,processor_speed,,2.3,missing -> median speed of the same processor brand
+Letv Y2 Pro,processor_speed,,1.6,missing -> median speed of the same processor brand
+Nokia X50 5G,processor_speed,,2.4,missing -> median speed of the same processor brand
+OnePlus Nord 5,processor_speed,,2.4,missing -> median speed of the same processor brand
+Poco X6 Pro 5G,processor_speed,,2.4,missing -> median speed of the same processor brand
+Samsung Galaxy A05,processor_speed,,2.3,missing -> median speed of the same processor brand
+Samsung Galaxy A15,processor_speed,,2.3,missing -> median speed of the same processor brand
+Samsung Galaxy A34 5G,processor_speed,,2.4,missing -> median speed of the same processor brand
+Samsung Galaxy A54 5G,processor_speed,,2.4,missing -> median speed of the same processor brand
+Samsung Galaxy A75 5G,processor_speed,,2.4,missing -> median speed of the same processor brand
+Samsung Galaxy F14,processor_speed,,2.3,missing -> median speed of the same processor brand
+Samsung Galaxy M14,processor_speed,,2.4,missing -> median speed of the same processor brand
+Samsung Galaxy M35,processor_speed,,2.3,missing -> median speed of the same processor brand
+Samsung Galaxy M51s 5G,processor_speed,,2.3,missing -> median speed of the same processor brand
+Samsung Galaxy M52s 5G,processor_speed,,2.3,missing -> median speed of the same processor brand
+Samsung Galaxy S22 FE 5G,processor_speed,,2.4,missing -> median speed of the same processor brand
+Samsung Galaxy S23 FE 5G,processor_speed,,2.3,missing -> median speed of the same processor brand
+Samsung Galaxy S24 Ultra,processor_speed,,2.4,missing -> median speed of the same processor brand
+Vivo S17 Pro,processor_speed,,2.4,missing -> median speed of the same processor brand
+Vivo T2 Pro 5G,processor_speed,,2.4,missing -> median speed of the same processor brand
+Vivo Y02,processor_speed,,2.05,missing -> median speed of the same processor brand
+Vivo Y02 (2GB RAM + 32GB),processor_speed,,2.05,missing -> median speed of the same processor brand
+iQOO Z9,processor_speed,,2.4,missing -> median speed of the same processor brand
+Apple iPhone SE 3 2022,rating,,86.0,missing -> median rating of phones in the same price group
+Asus ROG Phone 6D Ultimate,rating,,86.0,missing -> median rating of phones in the same price group
+CAT S22 Flip,rating,,79.0,missing -> median rating of phones in the same price group
+Duoqin F22 Pro,rating,,69.0,missing -> median rating of phones in the same price group
+Gionee G13 Pro,rating,,69.0,missing -> median rating of phones in the same price group
+Gionee K10,rating,,69.0,missing -> median rating of phones in the same price group
+Google Pixel 6 Pro (12GB RAM + 256GB),rating,,86.0,missing -> median rating of phones in the same price group
+Google Pixel 7 Pro 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Honor 80 Pro Plus,rating,,86.0,missing -> median rating of phones in the same price group
+Honor Magic 4 Pro Plus 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Huawei Mate 40 Pro 4G,rating,,86.0,missing -> median rating of phones in the same price group
+Huawei Mate X,rating,,86.0,missing -> median rating of phones in the same price group
+Huawei P40 Pro,rating,,86.0,missing -> median rating of phones in the same price group
+Huawei P50 Pro 4G,rating,,86.0,missing -> median rating of phones in the same price group
+Infinix Smart 6 HD,rating,,69.0,missing -> median rating of phones in the same price group
+Itel A23 Pro,rating,,69.0,missing -> median rating of phones in the same price group
+Itel A24 Pro,rating,,69.0,missing -> median rating of phones in the same price group
+Jio JioPhone Next,rating,,69.0,missing -> median rating of phones in the same price group
+Jio JioPhone Next (3GB RAM + 32GB),rating,,69.0,missing -> median rating of phones in the same price group
+Jio Phone 3,rating,,69.0,missing -> median rating of phones in the same price group
+LG V60 ThinQ,rating,,86.0,missing -> median rating of phones in the same price group
+Lava X3,rating,,69.0,missing -> median rating of phones in the same price group
+Letv Y1 Pro,rating,,69.0,missing -> median rating of phones in the same price group
+Letv Y2 Pro,rating,,69.0,missing -> median rating of phones in the same price group
+Lyf Earth 2,rating,,69.0,missing -> median rating of phones in the same price group
+Motorola Edge 30 Ultra,rating,,86.0,missing -> median rating of phones in the same price group
+Motorola Edge 30 Ultra (12GB RAM + 256GB),rating,,86.0,missing -> median rating of phones in the same price group
+Motorola Moto Edge X30 Pro,rating,,86.0,missing -> median rating of phones in the same price group
+Motorola Moto X30 Pro,rating,,86.0,missing -> median rating of phones in the same price group
+Nokia C01 Plus,rating,,69.0,missing -> median rating of phones in the same price group
+Nokia N73 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Nokia X60 Pro 5G,rating,,86.0,missing -> median rating of phones in the same price group
+OnePlus 10 Pro 5G (12GB RAM + 256GB),rating,,86.0,missing -> median rating of phones in the same price group
+OnePlus 10 Pro 5G (12GB RAM + 512GB),rating,,86.0,missing -> median rating of phones in the same price group
+OnePlus 11 Pro,rating,,86.0,missing -> median rating of phones in the same price group
+OnePlus 12 Pro,rating,,86.0,missing -> median rating of phones in the same price group
+Oppo Find N 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Oppo Find N Fold,rating,,86.0,missing -> median rating of phones in the same price group
+Oppo Find N2 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Oppo Find X3 Pro,rating,,86.0,missing -> median rating of phones in the same price group
+Oppo Find X5 Pro 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Oppo Find X6 Pro,rating,,86.0,missing -> median rating of phones in the same price group
+Poco C50,rating,,69.0,missing -> median rating of phones in the same price group
+Realme A1,rating,,69.0,missing -> median rating of phones in the same price group
+Realme C2,rating,,69.0,missing -> median rating of phones in the same price group
+Realme C30,rating,,69.0,missing -> median rating of phones in the same price group
+Realme C30s,rating,,69.0,missing -> median rating of phones in the same price group
+Realme Narzo 50i,rating,,69.0,missing -> median rating of phones in the same price group
+Samsung Galaxy A01 Core,rating,,69.0,missing -> median rating of phones in the same price group
+Samsung Galaxy A03 Core,rating,,69.0,missing -> median rating of phones in the same price group
+Samsung Galaxy A73 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Samsung Galaxy A73 5G (8GB RAM + 256GB),rating,,86.0,missing -> median rating of phones in the same price group
+Samsung Galaxy A74 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Samsung Galaxy Note 30 Ultra 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Samsung Galaxy S20 Plus 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Samsung Galaxy S20 Ultra 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Samsung Galaxy S21 Ultra,rating,,86.0,missing -> median rating of phones in the same price group
+Samsung Galaxy S21 Ultra 5G (12GB RAM + 128GB),rating,,86.0,missing -> median rating of phones in the same price group
+Samsung Galaxy S22 Ultra 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Samsung Galaxy S22 Ultra 5G (12GB RAM + 512GB),rating,,86.0,missing -> median rating of phones in the same price group
+Samsung Galaxy S22 Ultra 5G (8GB RAM + 128GB),rating,,86.0,missing -> median rating of phones in the same price group
+Samsung Galaxy S23 Ultra 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Samsung Galaxy Z Fold 4,rating,,86.0,missing -> median rating of phones in the same price group
+Samsung Galaxy Z Fold 4 (12GB RAM + 1TB),rating,,86.0,missing -> median rating of phones in the same price group
+Sony Xperia 1 IV (12GB RAM + 512GB),rating,,86.0,missing -> median rating of phones in the same price group
+Sony Xperia Pro-I,rating,,86.0,missing -> median rating of phones in the same price group
+Tecno Pop 5 Go,rating,,69.0,missing -> median rating of phones in the same price group
+Tecno Pop 6 Pro,rating,,69.0,missing -> median rating of phones in the same price group
+Vivo X Fold 2,rating,,86.0,missing -> median rating of phones in the same price group
+Vivo X Fold 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Vivo X Fold 5G (12GB RAM + 512GB),rating,,86.0,missing -> median rating of phones in the same price group
+Vivo X Fold Plus,rating,,86.0,missing -> median rating of phones in the same price group
+Vivo X Note 5G (12GB RAM + 512GB),rating,,86.0,missing -> median rating of phones in the same price group
+Vivo X80 Pro 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Vivo X80 Pro Plus 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Vivo X90 Pro 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Vivo X90 Pro Plus 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Vivo Y02,rating,,69.0,missing -> median rating of phones in the same price group
+Vivo Y02 (2GB RAM + 32GB),rating,,69.0,missing -> median rating of phones in the same price group
+Vivo Y25,rating,,69.0,missing -> median rating of phones in the same price group
+Vivo Y55S,rating,,79.0,missing -> median rating of phones in the same price group
+Vivo Y71,rating,,83.0,missing -> median rating of phones in the same price group
+Vivo Y91c,rating,,69.0,missing -> median rating of phones in the same price group
+Xiaomi 12 Pro 5G (12GB RAM + 256GB),rating,,86.0,missing -> median rating of phones in the same price group
+Xiaomi 12 Ultra 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Xiaomi 12S Ultra,rating,,86.0,missing -> median rating of phones in the same price group
+Xiaomi 13 Pro 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Xiaomi 13 Ultra 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Xiaomi Mi Mix Alpha,rating,,86.0,missing -> median rating of phones in the same price group
+Xiaomi Mi Mix Fold,rating,,86.0,missing -> median rating of phones in the same price group
+Xiaomi Mix Fold 2 5G,rating,,86.0,missing -> median rating of phones in the same price group
+Xiaomi Redmi A1,rating,,69.0,missing -> median rating of phones in the same price group
+itel A23s,rating,,69.0,missing -> median rating of phones in the same price group
+itel A56,rating,,69.0,missing -> median rating of phones in the same price group
+itel P36,rating,,69.0,missing -> median rating of phones in the same price group
+itel S16,rating,,69.0,missing -> median rating of phones in the same price group
+itel S16 Pro,rating,,69.0,missing -> median rating of phones in the same price group
+itel Vision 1 (3GB RAM + 32GB),rating,,69.0,missing -> median rating of phones in the same price group
+itel Vision 3 (2GB RAM + 32GB),rating,,69.0,missing -> median rating of phones in the same price group
