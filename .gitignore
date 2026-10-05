@@ -1,0 +1,10 @@
+# HTML copies of the notebooks (GitHub shows the notebooks directly)
+*.html
+
+# Python and Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# macOS
+.DS_Store
