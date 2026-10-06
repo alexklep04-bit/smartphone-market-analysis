@@ -41,14 +41,14 @@ Do you pay for the specs or for the brand? We tested five hypotheses at α = 0.0
 | Test | Our question | What we found |
 |---|---|---|
 | One-sample t-test | Is the average battery 5,000 mAh? | **No:** the mean is 4,812 mAh (p < 0.001), although 5,000 mAh is the most common size. |
+| One-sample test for a proportion | Can most phones pay contactlessly (NFC)? | **No:** only 39% of phones have NFC (p < 0.001). It's a premium feature: 5% of budget phones vs 97% of flagships. |
 | Two-sample t-test (Welch) | Do iPhones have better specs than Android flagships? | **No, the opposite:** spec score 79.5 vs 87.4 (p < 0.001), while iPhones cost more. |
-| Two-sample t-test | Is Snapdragon better than MediaTek Dimensity in mid-range phones? | **No difference:** 81.2 vs 81.2 at the same price (p = 0.96). |
 | Chi-square test of homogeneity | Do the five biggest brands follow the same price strategy? | **No:** Realme sells mostly budget phones and no flagships, Samsung has the most flagships (p < 0.001). |
 | Chi-square test of independence | Does 5G depend on the brand? | **No:** 48–60% for every brand (p = 0.45). 5G depends on the price instead. |
 
 Our answer: for most phones you pay for the specs. iPhones are the exception, where you also pay for the brand.
 
-![iPhones vs Android flagships](figures/t2_02_iphone_vs_android.png)
+![iPhones vs Android flagships](figures/t2_03_iphone_vs_android.png)
 
 ## How to run
 
