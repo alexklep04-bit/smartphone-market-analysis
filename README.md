@@ -21,16 +21,16 @@ A two-person team project from the **T4EU Data Science Winter School** in Katowi
 ## Task 1 in short
 
 - **Missing values** in 10 columns: dropped the half-empty memory-card column, treated "no fast charging" (0 W) differently from "power unknown", and filled ratings using phones in the same price group.
-- **Cleaning:** removed 3 phones that were never released (e.g. the "Tesla Pi Phone"), 3 duplicates and 4 luxury editions, and merged inconsistent chip and brand names.
+- **Cleaning:** removed 27 phones that were never released (rumours and concepts such as the "Tesla Pi Phone" or the "iPhone 14 Mini"), 3 duplicates and 4 luxury editions, and merged inconsistent chip and brand names.
 - **Outliers:** compared the z-score and IQR methods. The IQR method flags far more phones, because half of all phones have exactly 5,000 mAh. Real extremes were kept, and price was log-transformed.
 - **New features:** price in euros, price segment, chip maker, pixel density and a foldable flag.
 - Every change between the raw and the clean file is listed in [data/changes_log.csv](data/changes_log.csv).
 
 ## Key findings so far
 
-- A typical phone costs **₹19,990 (about €222)**. 5G phones have a median price of ₹29,999, against ₹12,499 for 4G-only phones.
-- **Processor speed** is the strongest single predictor of price (r = 0.81 with log price), followed by rating (0.73) and RAM (0.70).
-- **56% of phones have 5G**, but only 13% of budget phones against 94% of premium ones. MediaTek Dimensity chips are 99% 5G, Helio chips only 1%.
+- A typical phone costs **₹19,990 (about €222)**. 5G phones have a median price of ₹29,990, against ₹12,499 for 4G-only phones.
+- **Processor speed** is the strongest single predictor of price (r = 0.81 with log price), followed by rating (0.74) and RAM (0.70).
+- **56% of phones have 5G**, but only 13% of budget phones against 93% of premium ones. MediaTek Dimensity chips are 99% 5G, Helio chips only 1%.
 
 ![Share of 5G phones by chip family](figures/08_5g_by_chip_family.png)
 

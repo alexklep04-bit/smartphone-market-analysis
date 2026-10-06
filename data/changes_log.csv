@@ -1,14 +1,38 @@
 model,column,raw_value,clean_value,change
-Tesla Pi Phone,(whole row),,removed,never released (rumoured phone)
-Apple iPhone 9,(whole row),,removed,never released (rumoured phone)
 OPPO Reno 8 Pro House of Dragon Edition,(whole row),,removed,duplicate: same specs and price as OPPO Reno 8 Pro 5G
-Vertu Signature Touch,(whole row),,removed,luxury edition (price not set by specs)
-Huawei Mate 50 RS Porsche Design,(whole row),,removed,luxury edition (price not set by specs)
-Apple iPhone 7s,(whole row),,removed,never released (rumoured phone)
 Vivo Y15C,(whole row),,removed,duplicate: same specs and price as Vivo Y15s
 Xiaomi Redmi 10 Prime Plus 5G,(whole row),,removed,duplicate: same specs and price as Xiaomi Redmi Note 11E 5G
-Xiaomi Redmi K20 Pro Signature Edition,(whole row),,removed,luxury edition (price not set by specs)
 Huawei Mate 30 RS Porsche Design,(whole row),,removed,luxury edition (price not set by specs)
+Huawei Mate 50 RS Porsche Design,(whole row),,removed,luxury edition (price not set by specs)
+Xiaomi Redmi K20 Pro Signature Edition,(whole row),,removed,luxury edition (price not set by specs)
+Vertu Signature Touch,(whole row),,removed,luxury edition (price not set by specs)
+OnePlus 9T,(whole row),,removed,never released: cancelled
+Xiaomi 12 Ultra 5G,(whole row),,removed,never released: cancelled (Xiaomi released the 12S Ultra instead)
+OnePlus Clover,(whole row),,removed,never released: code name (released as the Nord N100)
+OnePlus Z,(whole row),,removed,never released: code name (released as the OnePlus Nord)
+Tesla Pi Phone,(whole row),,removed,"never released: concept, never made"
+Xiaomi Mi Mix Alpha,(whole row),,removed,"never released: concept, never sold"
+OPPO X 2021,(whole row),,removed,"never released: concept, never sold"
+Samsung Galaxy A92 5G,(whole row),,removed,never released: rumour
+Nokia X60 5G,(whole row),,removed,never released: rumour
+Nothing Phone 1 Lite,(whole row),,removed,never released: rumour
+Samsung Galaxy A83 5G,(whole row),,removed,never released: rumour
+OnePlus 12 Pro,(whole row),,removed,never released: rumour
+Nokia X60 Pro 5G,(whole row),,removed,never released: rumour
+Samsung Galaxy A75 5G,(whole row),,removed,never released: rumour
+Nokia N73 5G,(whole row),,removed,never released: rumour
+Samsung Galaxy A74 5G,(whole row),,removed,never released: rumour
+OnePlus Nord Lite,(whole row),,removed,never released: rumour
+Apple iPhone 7s,(whole row),,removed,never released: rumour (Apple went from 7 to 8)
+Apple iPhone 9,(whole row),,removed,never released: rumour (Apple went from 8 to X)
+Apple iPhone SE 4,(whole row),,removed,never released: rumour (never released under this name)
+OnePlus 11 Pro,(whole row),,removed,never released: rumour (only the OnePlus 11 was released)
+Apple iPhone 15 Ultra,(whole row),,removed,never released: rumour (released as the 15 Pro Max)
+OnePlus Nord 2 Lite 5G,(whole row),,removed,never released: rumour (released as the Nord CE 2 Lite)
+Apple iPhone 14 Mini,(whole row),,removed,"never released: rumour (the 14 series had a Plus, no Mini)"
+Samsung Galaxy Note 30 Ultra 5G,(whole row),,removed,never released: rumour (the Note series ended with the Note 20)
+Apple iPhone XR2,(whole row),,removed,never released: rumour (the XR was followed by the iPhone 11)
+Jio JioPhone 5G,(whole row),,removed,"never released: rumour, never launched"
 Apple iPhone 12,battery_capacity,,3279.0,missing -> median battery of the same brand
 Apple iPhone 12 (128GB),battery_capacity,,3279.0,missing -> median battery of the same brand
 Apple iPhone 12 (256GB),battery_capacity,,3279.0,missing -> median battery of the same brand
@@ -19,7 +43,6 @@ Apple iPhone 12 Pro (256GB),battery_capacity,,3279.0,missing -> median battery o
 Apple iPhone 12 Pro (512GB),battery_capacity,,3279.0,missing -> median battery of the same brand
 Apple iPhone 15 Pro,battery_capacity,,3279.0,missing -> median battery of the same brand
 Apple iPhone SE 3 2022,battery_capacity,,3279.0,missing -> median battery of the same brand
-Apple iPhone SE 4,battery_capacity,,3279.0,missing -> median battery of the same brand
 Letv Y1 Pro,brand_name,letv,leeco,standardized: 'letv' -> 'leeco'
 Letv Y1 Pro Plus,brand_name,letv,leeco,standardized: 'letv' -> 'leeco'
 Letv Y2 Pro,brand_name,letv,leeco,standardized: 'letv' -> 'leeco'
@@ -49,7 +72,6 @@ Apple iPhone 13 Pro Max (256GB),fast_charging,,18.0,"missing, power unknown -> m
 Apple iPhone 14,fast_charging,,18.0,"missing, power unknown -> median of the same brand"
 Apple iPhone 14 (256GB),fast_charging,,18.0,"missing, power unknown -> median of the same brand"
 Apple iPhone 14 (512GB),fast_charging,,18.0,"missing, power unknown -> median of the same brand"
-Apple iPhone 14 Mini,fast_charging,,18.0,"missing, power unknown -> median of the same brand"
 Apple iPhone 14 Plus,fast_charging,,18.0,"missing, power unknown -> median of the same brand"
 Apple iPhone 14 Plus (256GB),fast_charging,,18.0,"missing, power unknown -> median of the same brand"
 Apple iPhone 14 Plus (512GB),fast_charging,,18.0,"missing, power unknown -> median of the same brand"
@@ -63,10 +85,7 @@ Apple iPhone 14 Pro Max (512GB),fast_charging,,18.0,"missing, power unknown -> m
 Apple iPhone 15,fast_charging,,18.0,"missing, power unknown -> median of the same brand"
 Apple iPhone 15 Plus,fast_charging,,18.0,"missing, power unknown -> median of the same brand"
 Apple iPhone 15 Pro,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
-Apple iPhone 15 Ultra,fast_charging,,18.0,"missing, power unknown -> median of the same brand"
 Apple iPhone SE 3 2022,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
-Apple iPhone SE 4,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
-Apple iPhone XR2,fast_charging,,18.0,"missing, power unknown -> median of the same brand"
 BLU F91 5G,fast_charging,,33.0,"missing, power unknown -> median of the same brand"
 CAT S22 Flip,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
 Duoqin F22 Pro,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
@@ -165,7 +184,6 @@ Samsung Galaxy A15,fast_charging,,25.0,"missing, power unknown -> median of the 
 Samsung Galaxy A21s (6GB RAM + 128GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
 Samsung Galaxy A7 (2018),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
 Samsung Galaxy A9 Pro (2019),fast_charging,,25.0,"missing, power unknown -> median of the same brand"
-Samsung Galaxy A92 5G,fast_charging,,25.0,"missing, power unknown -> median of the same brand"
 Samsung Galaxy F22,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
 Samsung Galaxy F22 (6GB RAM + 128GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
 Samsung Galaxy M14,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
@@ -232,15 +250,12 @@ itel P36,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
 itel S16,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
 itel S16 Pro,fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
 itel Vision 1 (3GB RAM + 32GB),fast_charging,,0.0,"missing, phone has no fast charging -> 0 W"
-Apple iPhone 14 Mini,num_cores,,8.0,missing -> most common value
 Apple iPhone 15,num_cores,,8.0,missing -> most common value
 Apple iPhone 15 Pro,num_cores,,8.0,missing -> most common value
 Apple iPhone 15 Pro Max,num_cores,,8.0,missing -> most common value
-Apple iPhone XR2,num_cores,,8.0,missing -> most common value
 Nokia X50 5G,num_cores,,8.0,missing -> most common value
 Huawei Mate X,num_front_cameras,,1.0,missing -> most common value
 Oppo Find N Fold,num_front_cameras,,1.0,missing -> most common value
-Xiaomi Mi Mix Alpha,num_front_cameras,,1.0,missing -> most common value
 itel A23s,num_front_cameras,,1.0,missing -> most common value
 Asus ROG Phone 6D Ultimate,os,,android,"missing -> from the brand (huawei = other, others = android)"
 CAT S22 Flip,os,,android,"missing -> from the brand (huawei = other, others = android)"
@@ -259,7 +274,6 @@ Samsung Galaxy Z Flip 4 5G,os,,android,"missing -> from the brand (huawei = othe
 Huawei Mate X,primary_camera_front,,16.0,missing -> median
 Oppo Find N Fold,primary_camera_front,,16.0,missing -> median
 Oukitel WP21,primary_camera_front,,16.0,missing -> median
-Xiaomi Mi Mix Alpha,primary_camera_front,,16.0,missing -> median
 itel A23s,primary_camera_front,,16.0,missing -> median
 Gionee G13 Pro,processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
 Gionee K10,processor_brand,tiger,unisoc,standardized: 'tiger' is a Unisoc chip -> 'unisoc'
@@ -310,7 +324,6 @@ itel A23s,processor_brand,spreadtrum,unisoc,standardized: 'spreadtrum' is a Unis
 itel A56,processor_brand,,unknown,missing -> 'unknown'
 itel P36,processor_brand,spreadtrum,unisoc,standardized: 'spreadtrum' is a Unisoc chip -> 'unisoc'
 itel S16 Pro,processor_brand,,unknown,missing -> 'unknown'
-Apple iPhone 14 Mini,processor_speed,,3.22,missing -> median speed of the same processor brand
 Apple iPhone 14 Pro,processor_speed,,3.22,missing -> median speed of the same processor brand
 Apple iPhone 14 Pro (1TB),processor_speed,,3.22,missing -> median speed of the same processor brand
 Apple iPhone 14 Pro (256GB),processor_speed,,3.22,missing -> median speed of the same processor brand
@@ -322,8 +335,6 @@ Apple iPhone 15,processor_speed,,3.22,missing -> median speed of the same proces
 Apple iPhone 15 Plus,processor_speed,,3.22,missing -> median speed of the same processor brand
 Apple iPhone 15 Pro,processor_speed,,3.22,missing -> median speed of the same processor brand
 Apple iPhone 15 Pro Max,processor_speed,,3.22,missing -> median speed of the same processor brand
-Apple iPhone 15 Ultra,processor_speed,,3.22,missing -> median speed of the same processor brand
-Apple iPhone XR2,processor_speed,,3.22,missing -> median speed of the same processor brand
 Google Pixel 6A,processor_speed,,2.8,missing -> median speed of the same processor brand
 Google Pixel 7A,processor_speed,,2.8,missing -> median speed of the same processor brand
 Google Pixel 8,processor_speed,,2.8,missing -> median speed of the same processor brand
@@ -337,7 +348,6 @@ Samsung Galaxy A05,processor_speed,,2.3,missing -> median speed of the same proc
 Samsung Galaxy A15,processor_speed,,2.3,missing -> median speed of the same processor brand
 Samsung Galaxy A34 5G,processor_speed,,2.4,missing -> median speed of the same processor brand
 Samsung Galaxy A54 5G,processor_speed,,2.4,missing -> median speed of the same processor brand
-Samsung Galaxy A75 5G,processor_speed,,2.4,missing -> median speed of the same processor brand
 Samsung Galaxy F14,processor_speed,,2.3,missing -> median speed of the same processor brand
 Samsung Galaxy M14,processor_speed,,2.4,missing -> median speed of the same processor brand
 Samsung Galaxy M35,processor_speed,,2.3,missing -> median speed of the same processor brand
@@ -381,12 +391,8 @@ Motorola Edge 30 Ultra (12GB RAM + 256GB),rating,,86.0,missing -> median rating 
 Motorola Moto Edge X30 Pro,rating,,86.0,missing -> median rating of phones in the same price group
 Motorola Moto X30 Pro,rating,,86.0,missing -> median rating of phones in the same price group
 Nokia C01 Plus,rating,,69.0,missing -> median rating of phones in the same price group
-Nokia N73 5G,rating,,86.0,missing -> median rating of phones in the same price group
-Nokia X60 Pro 5G,rating,,86.0,missing -> median rating of phones in the same price group
 OnePlus 10 Pro 5G (12GB RAM + 256GB),rating,,86.0,missing -> median rating of phones in the same price group
 OnePlus 10 Pro 5G (12GB RAM + 512GB),rating,,86.0,missing -> median rating of phones in the same price group
-OnePlus 11 Pro,rating,,86.0,missing -> median rating of phones in the same price group
-OnePlus 12 Pro,rating,,86.0,missing -> median rating of phones in the same price group
 Oppo Find N 5G,rating,,86.0,missing -> median rating of phones in the same price group
 Oppo Find N Fold,rating,,86.0,missing -> median rating of phones in the same price group
 Oppo Find N2 5G,rating,,86.0,missing -> median rating of phones in the same price group
@@ -403,8 +409,6 @@ Samsung Galaxy A01 Core,rating,,69.0,missing -> median rating of phones in the s
 Samsung Galaxy A03 Core,rating,,69.0,missing -> median rating of phones in the same price group
 Samsung Galaxy A73 5G,rating,,86.0,missing -> median rating of phones in the same price group
 Samsung Galaxy A73 5G (8GB RAM + 256GB),rating,,86.0,missing -> median rating of phones in the same price group
-Samsung Galaxy A74 5G,rating,,86.0,missing -> median rating of phones in the same price group
-Samsung Galaxy Note 30 Ultra 5G,rating,,86.0,missing -> median rating of phones in the same price group
 Samsung Galaxy S20 Plus 5G,rating,,86.0,missing -> median rating of phones in the same price group
 Samsung Galaxy S20 Ultra 5G,rating,,86.0,missing -> median rating of phones in the same price group
 Samsung Galaxy S21 Ultra,rating,,86.0,missing -> median rating of phones in the same price group
@@ -435,11 +439,9 @@ Vivo Y55S,rating,,79.0,missing -> median rating of phones in the same price grou
 Vivo Y71,rating,,83.0,missing -> median rating of phones in the same price group
 Vivo Y91c,rating,,69.0,missing -> median rating of phones in the same price group
 Xiaomi 12 Pro 5G (12GB RAM + 256GB),rating,,86.0,missing -> median rating of phones in the same price group
-Xiaomi 12 Ultra 5G,rating,,86.0,missing -> median rating of phones in the same price group
 Xiaomi 12S Ultra,rating,,86.0,missing -> median rating of phones in the same price group
 Xiaomi 13 Pro 5G,rating,,86.0,missing -> median rating of phones in the same price group
 Xiaomi 13 Ultra 5G,rating,,86.0,missing -> median rating of phones in the same price group
-Xiaomi Mi Mix Alpha,rating,,86.0,missing -> median rating of phones in the same price group
 Xiaomi Mi Mix Fold,rating,,86.0,missing -> median rating of phones in the same price group
 Xiaomi Mix Fold 2 5G,rating,,86.0,missing -> median rating of phones in the same price group
 Xiaomi Redmi A1,rating,,69.0,missing -> median rating of phones in the same price group
