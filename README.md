@@ -1,6 +1,6 @@
 # Smartphone Market Analysis
 
-What drives the price of a smartphone, and which phones get 5G? In this project we analyse **980 smartphones listed in 2023 on Smartprix**, an Indian price-comparison website: we clean the raw data (907 real phones remain), explore it, test hypotheses and build regression models.
+What drives the price of a smartphone, and which phones get 5G? In this project we analyse **980 smartphones listed in 2023 on Smartprix**, an Indian price-comparison website: we clean the raw data (907 real phones remain), explore it, test hypotheses, and build regression and decision tree models.
 
 We made this project as a team of two at the **T4EU Data Science Winter School** in Katowice, Poland.
 
@@ -17,6 +17,7 @@ We use the [Smartphones dataset](https://www.kaggle.com/datasets/informrohit1/sm
 | 1 | Data preprocessing and exploratory data analysis | [Task1_Preprocessing_EDA.ipynb](Task1_Preprocessing_EDA.ipynb) ✅ |
 | 2 | Hypothesis testing: one-sample, two-sample and chi-square tests | [Task2_Hypothesis_Testing.ipynb](Task2_Hypothesis_Testing.ipynb) ✅ |
 | 3 | Linear and logistic regression | [Task3_Regression.ipynb](Task3_Regression.ipynb) ✅ |
+| 4 | Classification with decision trees | [Task4_Decision_Trees.ipynb](Task4_Decision_Trees.ipynb) ✅ |
 
 ## Task 1 in short
 
@@ -64,6 +65,16 @@ With exactly the same specs, **an iPhone costs 2.5 times as much as an Android p
 
 ![How much each feature adds to the price](figures/t3_02_price_effects.png)
 
+## Task 4 in short
+
+Can a decision tree tell a phone's price segment (Budget, Mid-range, Premium or Flagship) from its specs alone? We compared trees of different depths (4a) and with different numbers of phones per leaf (4b) using cross-validation, and chose the simplest tree that is as good as the best one.
+
+- **Our final tree** (36 leaves) puts **79.7% of the test phones** in the right segment (always answering "Budget" would give 35.7%), with a macro F1-score of 0.80. Over 20 random splits it averages 76%.
+- **Every mistake is between neighbouring segments**, and **RAM and processor speed** make up 55% of the tree's decisions.
+- **Decision rules** (the optional part): 30 rules from the tree plus a default rule reach 79.1% accuracy with 3.6 conditions per rule instead of 5.5. For example: *every foldable is a Flagship*, and *4 GB of RAM or less without NFC means Budget*.
+
+![Our decision tree](figures/t4_04_decision_tree.png)
+
 ## How to run
 
 ```bash
@@ -71,7 +82,7 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Run the notebooks in order. Task 1 creates `data/smartphones_clean.csv`, which Tasks 2 and 3 use. Each notebook also saves its charts in `figures/`.
+Run the notebooks in order. Task 1 creates `data/smartphones_clean.csv`, which Tasks 2, 3 and 4 use. Each notebook also saves its charts in `figures/`.
 
 ## Project structure
 
@@ -79,6 +90,7 @@ Run the notebooks in order. Task 1 creates `data/smartphones_clean.csv`, which T
 ├── Task1_Preprocessing_EDA.ipynb    Task 1: cleaning and EDA
 ├── Task2_Hypothesis_Testing.ipynb   Task 2: hypothesis testing
 ├── Task3_Regression.ipynb           Task 3: linear and logistic regression
+├── Task4_Decision_Trees.ipynb       Task 4: classification with decision trees
 ├── data/
 │   ├── smartphones_cleaned_v6.csv   raw data from Kaggle
 │   ├── smartphones_clean.csv        clean data, the output of Task 1
