@@ -16,7 +16,7 @@ We use the [Smartphones dataset](https://www.kaggle.com/datasets/informrohit1/sm
 |---|---|---|
 | 1 | Data preprocessing and exploratory data analysis | [Task1_Preprocessing_EDA.ipynb](Task1_Preprocessing_EDA.ipynb) ✅ |
 | 2 | Hypothesis testing: one-sample, two-sample and chi-square tests | [Task2_Hypothesis_Testing.ipynb](Task2_Hypothesis_Testing.ipynb) ✅ |
-| 3 | Linear and logistic regression | next |
+| 3 | Linear and logistic regression | [Task3_Regression.ipynb](Task3_Regression.ipynb) ✅ |
 
 ## Task 1 in short
 
@@ -51,6 +51,19 @@ Our answer: for most phones you pay for the specs, but the extra money buys less
 
 ![iPhones vs Android flagships](figures/t2_03_iphone_vs_android.png)
 
+## Task 3 in short
+
+We built two models and tested them on 190 phones that they had not seen during training (20% of the data). Before that, we corrected three wrong 5G labels: for example, the iPhone 15 was marked as a phone without 5G.
+
+| Model | Our question | What we found |
+|---|---|---|
+| Multiple linear regression for log(price) | What drives the price of a phone? | Processor speed, RAM, storage, NFC, being an iPhone and being foldable all raise the price (all p < 0.001). The model explains 85% of the variation in log price, and its average error is €84 (23% of the price). |
+| Binary logistic regression for 5G | Which phones get 5G? | The chance of 5G rises with the price, the processor speed and the screen refresh rate (all p < 0.001). The model is right for 87% of the phones, with an F1-score of 0.88 and a ROC-AUC of 0.93. |
+
+With exactly the same specs, **an iPhone costs 2.3 times as much as an Android phone**, and a foldable 2.1 times as much.
+
+![How much each feature adds to the price](figures/t3_02_price_effects.png)
+
 ## How to run
 
 ```bash
@@ -58,13 +71,14 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Run the notebooks in order. Task 1 creates `data/smartphones_clean.csv`, which Task 2 uses. Each notebook also saves its charts in `figures/`.
+Run the notebooks in order. Task 1 creates `data/smartphones_clean.csv`, which Tasks 2 and 3 use. Each notebook also saves its charts in `figures/`.
 
 ## Project structure
 
 ```
 ├── Task1_Preprocessing_EDA.ipynb    Task 1: cleaning and EDA
 ├── Task2_Hypothesis_Testing.ipynb   Task 2: hypothesis testing
+├── Task3_Regression.ipynb           Task 3: linear and logistic regression
 ├── data/
 │   ├── smartphones_cleaned_v6.csv   raw data from Kaggle
 │   ├── smartphones_clean.csv        clean data, the output of Task 1
