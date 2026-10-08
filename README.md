@@ -67,11 +67,11 @@ With exactly the same specs, **an iPhone costs 2.5 times as much as an Android p
 
 ## Task 4 in short
 
-Can a decision tree tell a phone's price segment (Budget, Mid-range, Premium or Flagship) from its specs alone? We compared trees of different depths (4a) and with different numbers of phones per leaf (4b) using cross-validation, and chose the simplest tree that is as good as the best one.
+Can a decision tree tell a phone's price segment (Budget, Mid-range, Premium or Flagship) from its specs alone? We compared trees of different depths (4a) and with different numbers of phones per leaf (4b) using cross-validation, and chose a **small tree that we can read and explain**: depth 4, the point where more depth stops paying off.
 
-- **Our final tree** (36 leaves) puts **79.7% of the test phones** in the right segment (always answering "Budget" would give 35.7%), with a macro F1-score of 0.80. Over 20 random splits it averages 76%.
-- **Every mistake is between neighbouring segments**, and **RAM and processor speed** make up 55% of the tree's decisions.
-- **Decision rules** (the optional part): 30 rules from the tree plus a default rule reach 79.1% accuracy with 3.6 conditions per rule instead of 5.5. For example: *every foldable is a Flagship*, and *4 GB of RAM or less without NFC means Budget*.
+- **Our tree** has only 15 leaves and asks at most 4 questions per phone. It puts **79.7% of the test phones** in the right segment (always answering "Budget" would give 35.7%), with a macro F1-score of 0.81. Over 20 random splits it averages 75%.
+- **All mistakes but one are between neighbouring segments**, and **RAM and processor speed** make up 62% of the tree's decisions.
+- **Decision rules** (the optional part): 14 rules from the tree plus a default rule reach 78.6% accuracy with 2.9 conditions per rule. For example: *4 GB of RAM or less without NFC means Budget*, and *a fast processor with a big screen means Flagship*.
 
 ![Our decision tree](figures/t4_04_decision_tree.png)
 
