@@ -1,6 +1,6 @@
 # Smartphone Market Analysis
 
-What drives the price of a smartphone, and which phones get 5G? In this project we analyse **980 smartphones listed in 2023 on Smartprix**, an Indian price-comparison website: we clean the raw data (907 real phones remain), explore it, test hypotheses, and build regression and decision tree models.
+What drives the price of a smartphone, and which phones get 5G? In this project we analyse **980 smartphones listed in 2023 on Smartprix**, an Indian price-comparison website: we clean the raw data (907 real phones remain), explore it, test hypotheses, build regression and decision tree models, and group the phones into types with clustering.
 
 We made this project as a team of two at the **T4EU Data Science Winter School** in Katowice, Poland.
 
@@ -18,6 +18,7 @@ We use the [Smartphones dataset](https://www.kaggle.com/datasets/informrohit1/sm
 | 2 | Hypothesis testing: one-sample, two-sample and chi-square tests | [Task2_Hypothesis_Testing.ipynb](Task2_Hypothesis_Testing.ipynb) ✅ |
 | 3 | Linear and logistic regression | [Task3_Regression.ipynb](Task3_Regression.ipynb) ✅ |
 | 4 | Classification with decision trees | [Task4_Decision_Trees.ipynb](Task4_Decision_Trees.ipynb) ✅ |
+| 5 | Clustering with k-means and hierarchical clustering | [Task5_Clustering.ipynb](Task5_Clustering.ipynb) ✅ |
 
 ## Task 1 in short
 
@@ -75,6 +76,23 @@ Can a decision tree tell a phone's price segment (Budget, Mid-range, Premium or 
 
 ![Our decision tree](figures/t4_04_decision_tree.png)
 
+## Task 5 in short
+
+Which types of phones are there, if we look only at their specs? We clustered the phones with **k-means** on 12 specs, without the price. We tried k = 1 to 10 and chose **k = 4** with the **Elbow method** (after k = 4, each extra cluster lowers the WCSS by less than 9%) and the **silhouette** (the best for k ≥ 3: 0.235).
+
+| Cluster | Phones | Median price | What its centroid looks like |
+|---|---|---|---|
+| Basic | 209 | €105 | slow, little RAM and storage, almost never 5G or NFC |
+| Everyday | 340 | €189 | the typical phone: about 6 GB of RAM, half of them with 5G |
+| Performance | 283 | €411 | fast, about 9 GB of RAM, 120 Hz screens, 5G and NFC |
+| Compact premium | 75 | €622 | small screens and batteries, but fast and sharp, with NFC |
+
+- k-means never saw the price, yet **the four types are ordered by price**. Still, they are types, not price levels: Performance phones cost anything from €189 to €2,033.
+- **k-means found the iPhones without seeing the brand**: 32 of the 40 iPhones are in Compact premium.
+- **Hierarchical clustering (AHC, Ward's method)** finds the same four types (adjusted Rand index 0.58), and its first split separates the Basic phones from all others.
+
+![Our 4 clusters on a 2-D map](figures/t5_03_clusters_map.png)
+
 ## How to run
 
 ```bash
@@ -82,7 +100,7 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Run the notebooks in order. Task 1 creates `data/smartphones_clean.csv`, which Tasks 2, 3 and 4 use. Each notebook also saves its charts in `figures/`.
+Run the notebooks in order. Task 1 creates `data/smartphones_clean.csv`, which Tasks 2 to 5 use. Each notebook also saves its charts in `figures/`.
 
 ## Project structure
 
@@ -91,6 +109,7 @@ Run the notebooks in order. Task 1 creates `data/smartphones_clean.csv`, which T
 ├── Task2_Hypothesis_Testing.ipynb   Task 2: hypothesis testing
 ├── Task3_Regression.ipynb           Task 3: linear and logistic regression
 ├── Task4_Decision_Trees.ipynb       Task 4: classification with decision trees
+├── Task5_Clustering.ipynb           Task 5: clustering with k-means and AHC
 ├── data/
 │   ├── smartphones_cleaned_v6.csv   raw data from Kaggle
 │   ├── smartphones_clean.csv        clean data, the output of Task 1
