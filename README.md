@@ -100,7 +100,7 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Run the notebooks in order. Task 1 creates `data/smartphones_clean.csv`, which Tasks 2 to 5 use. Each notebook also saves its charts in `figures/`.
+Run the notebooks in order. Task 1 creates `data/smartphones_clean.csv` (used by Tasks 2 to 5) and `data/changes_log.csv`. Each notebook also saves its charts in `figures/`.
 
 ## Project structure
 
